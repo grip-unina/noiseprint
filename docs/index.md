@@ -1,6 +1,6 @@
 ---
 layout: paper
-paper: noiseprint
+paper: Noiseprint: a CNN-based camera model fingerprint
 github_url: https://github.com/grip-unina/noiseprint
 authors:  
   - name: Davide Cozzolino
@@ -13,7 +13,7 @@ authors:
     index: 1
     
 affiliations: 
-  - name: Department of Electrical Engineering and Information Technology, University Federico II of Naples, Italy
+  - name: University Federico II of Naples, Italy
     index: 1
     
 links:
