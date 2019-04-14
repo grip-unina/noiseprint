@@ -1,25 +1,25 @@
 ---
 layout: paper
-paper: Noiseprint: a CNN-based camera model fingerprint
+paper: noiseprint
 github_url: https://github.com/grip-unina/noiseprint
-authors: 
+authors:  
   - name: Davide Cozzolino
     link: http://www.grip.unina.it/people/userprofile/davide_cozzolino.html
     index: 1
+
      
   - name: Luisa Verdoliva
     link: http://www.grip.unina.it/people/userprofile/verdoliva.html
     index: 1
     
 affiliations: 
-  - name: University Federico II of Naples, Italy
+  - name: Department of Electrical Engineering and Information Technology, University Federico II of Naples, Italy
     index: 1
     
 links:
     arxiv: https://arxiv.org/abs/1808.08396
     code: https://github.com/grip-unina/noiseprint
 ---
-
 
 ![header](./header.jpg)
 
