@@ -1,5 +1,5 @@
 # Noiseprint: a CNN-based camera model fingerprint
-[Noiseprint](https://arxiv.org/abs/1808.08396) is a CNN-based camera model fingerprint
+[Noiseprint](https://ieeexplore.ieee.org/document/8713484) is a CNN-based camera model fingerprint
 extracted by a fully Convolutional Neural Network (CNN).
 
 ## License
@@ -89,4 +89,17 @@ To execute the demo, run the script
 cd ./demo
 ./demo_extraction.sh
 ./demo_heatmap.sh
+```
+
+## Reference
+
+```js
+@article{Cozzolino2019_Noiseprint,
+  title={Noiseprint: a CNN-based camera model fingerprint},
+  author={D. Cozzolino and L. Verdoliva},
+  journal={IEEE Transactions on Information Forensics and Security},
+  doi={10.1109/TIFS.2019.2916364}, 
+  ISSN={1556-6013}, 
+  year={2019}
+} 
 ```

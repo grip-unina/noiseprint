@@ -1,6 +1,6 @@
 ---
 layout: paper
-paper: Noiseprint&colon;&#13; a CNN-based camera model fingerprint
+paper: Noiseprint&colon;<br/> a CNN-based camera model fingerprint
 github_url: https://github.com/grip-unina/noiseprint
 authors:  
   - name: Davide Cozzolino
@@ -34,14 +34,14 @@ Experiments on several datasets widespread in the forensic community show noisep
 
 ### News
 
-*   2018-05-15: Paper was published as a preprint.
+*   2019-05-15: Paper was published as a preprint.
 *   2019-05-16: Code available online.
 
 
 ### Bibtex
 
 ```js
-@article{Cozzolino2018_Noiseprint,
+@article{Cozzolino2019_Noiseprint,
   title={Noiseprint: a CNN-based camera model fingerprint},
   author={D. Cozzolino and L. Verdoliva},
   journal={IEEE Transactions on Information Forensics and Security},
