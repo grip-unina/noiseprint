@@ -22,7 +22,7 @@ links:
     code: https://github.com/grip-unina/noiseprint
 ---
 
-![header](./header.gif){width=50%}
+![header](./header.gif=250x)
 
 Forensic analyses of digital images rely heavily on the traces of in-camera and out-camera processes left on the acquired images.
 Such traces represent a sort of camera fingerprint.
