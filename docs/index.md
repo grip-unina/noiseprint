@@ -18,10 +18,11 @@ affiliations:
     
 links:
     paper: https://ieeexplore.ieee.org/document/8713484
+    arxiv: https://arxiv.org/abs/1808.08396
     code: https://github.com/grip-unina/noiseprint
 ---
 
-![header](./header.gif)
+![header](./header.gif){width=50%}
 
 Forensic analyses of digital images rely heavily on the traces of in-camera and out-camera processes left on the acquired images.
 Such traces represent a sort of camera fingerprint.
@@ -39,7 +40,7 @@ Experiments on several datasets widespread in the forensic community show noisep
 
 ### Bibtex
 
-```js
+```javascript
 @article{Cozzolino2019_Noiseprint,
   title={Noiseprint: A CNN-Based Camera Model Fingerprint},
   author={D. Cozzolino and L. Verdoliva},
