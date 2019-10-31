@@ -72,7 +72,7 @@ The heatmap is saved in a file with extension mat or npz.
 To show the result, run:
 
 ```
-python main_showout.py <input image> <output mat/npz file>
+python main_showres.py <input image> <gt image> <output mat/npz file>
 ```
 
 To convert the heatmap in a png image, run:
@@ -95,11 +95,12 @@ cd ./demo
 
 ```js
 @article{Cozzolino2019_Noiseprint,
-  title={Noiseprint: a CNN-based camera model fingerprint},
+  title={Noiseprint: A CNN-Based Camera Model Fingerprint},
   author={D. Cozzolino and L. Verdoliva},
   journal={IEEE Transactions on Information Forensics and Security},
-  doi={10.1109/TIFS.2019.2916364}, 
-  ISSN={1556-6013}, 
-  year={2019}
+  doi={10.1109/TIFS.2019.2916364},
+  pages={144-159},
+  year={2020},
+  volume={15}
 } 
 ```

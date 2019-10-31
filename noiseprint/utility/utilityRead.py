@@ -128,3 +128,26 @@ def resizeMapWithPadding(x, range0, range1, shapeOut):
     y = interp1d(range1, x    , axis=1, kind='nearest', fill_value='extrapolate', assume_sorted=True, bounds_error=False)
     y = interp1d(range0, y(xv), axis=0, kind='nearest', fill_value='extrapolate', assume_sorted=True, bounds_error=False)
     return y(yv).astype(x.dtype)
+
+
+def computeMetricsContinue(values, gt0, gt1):
+    values = values.flatten().astype(np.float32)
+    gt0 = gt0.flatten().astype(np.float32)
+    gt1 = gt1.flatten().astype(np.float32)
+    inds = np.argsort(values)
+    inds = inds[(gt0[inds]+gt1[inds])>0]
+    vet_th = values[inds]
+    gt0 = gt0[inds]
+    gt1 = gt1[inds]
+    
+    TN = np.cumsum(gt0)
+    FN = np.cumsum(gt1)
+    FP = np.sum(gt0) - TN
+    TP = np.sum(gt1) - FN
+
+    return FP, TP, FN, TN, vet_th 
+
+def computeMCC(values, gt0, gt1):
+    FP, TP, FN, TN, vet_th  = computeMetricsContinue(values, gt0, gt1)
+    mcc = np.abs(TP*TN - FP*FN) / np.maximum(np.sqrt((TP + FP)*(TP + FN)*(TN+ FP)*(TN + FN) ), 1e-32)
+    return mcc, vet_th
