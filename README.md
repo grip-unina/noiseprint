@@ -91,6 +91,8 @@ cd ./demo
 ./demo_heatmap.sh
 ```
 
+Alternatively, check out sample [iPython notebook](demo.ipynb) which runs blind Noiseprint and display results side by side with input image.
+
 ## Reference
 
 ```js
