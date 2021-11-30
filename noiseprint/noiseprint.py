@@ -19,21 +19,21 @@ from .network import FullConvNet
 slide = 1024 #3072
 largeLimit = 1050000 #9437184
 overlap = 34
-
+tf.compat.v1.disable_eager_execution()
 chkpt_folder = os.path.join(os.path.dirname(__file__),'./nets/%s_jpg%d/model')
-tf.reset_default_graph()
-x_data  = tf.placeholder(tf.float32, [1, None, None, 1], name="x_data")
-net = FullConvNet(x_data, 0.9, tf.constant(False),  num_levels=17)
-saver = tf.train.Saver(net.variables_list)
+tf.compat.v1.reset_default_graph()
+x_data  = tf.compat.v1.placeholder(tf.compat.v1.float32, [1, None, None, 1], name="x_data")
+net = FullConvNet(x_data, 0.9, tf.compat.v1.constant(False),  num_levels=17)
+saver = tf.compat.v1.train.Saver(net.variables_list)
 
-configSess = tf.ConfigProto(); configSess.gpu_options.allow_growth = True
-#configSess = tf.ConfigProto(gpu_options=tf.GPUOptions(per_process_gpu_memory_fraction=0.95))
+configSess = tf.compat.v1.ConfigProto(); configSess.gpu_options.allow_growth = True
+#configSess = tf.compat.v1.ConfigProto(gpu_options=tf.compat.v1.GPUOptions(per_process_gpu_memory_fraction=0.95))
 
 def genNoiseprint(img, QF=101, model_name='net'):
     if QF>100: QF = 101
     chkpt_fname = chkpt_folder % (model_name, QF)
     
-    with tf.Session(config=configSess) as sess:
+    with tf.compat.v1.Session(config=configSess) as sess:
         saver.restore(sess, chkpt_fname)
         
         if img.shape[0]*img.shape[1]>largeLimit:
