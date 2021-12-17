@@ -16,6 +16,7 @@ import numpy as np
 import tensorflow as tf
 import os.path
 from .network import FullConvNet
+
 slide = 1024 #3072
 largeLimit = 1050000 #9437184
 overlap = 34
