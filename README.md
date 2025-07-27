@@ -93,7 +93,7 @@ cd ./demo
 
 ## Reference
 
-```js
+```bibtex
 @article{Cozzolino2019_Noiseprint,
   title={Noiseprint: A CNN-Based Camera Model Fingerprint},
   author={D. Cozzolino and L. Verdoliva},
