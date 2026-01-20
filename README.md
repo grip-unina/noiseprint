@@ -14,7 +14,7 @@ terms of the license, as specified in the document LICENSE.txt
 (included in this package) 
 
 ## Installation
-The code requires Python 3.x and Tensorflow 1.2.1 .
+The code requires Python 3.x and Tensorflow 1.2.1.
 
 To install Python 3.x for Ubuntu, you can run:
 
@@ -32,7 +32,7 @@ pip install --upgrade pip
 ```
 
 ### Installation with GPU
-Install Cuda8 and Cudnn5, more informetion on sites:
+Install Cuda8 and Cudnn5, more information on sites:
 - https://developer.nvidia.com/cuda-downloads
 - https://developer.nvidia.com/cudnn
 
