@@ -1,0 +1,14 @@
+THIS DOCUMENT CONSTITUTES A LICENCE TO USE THE SOFTWARE ON THE TERMS AND CONDITIONS APPEARING BELOW.
+
+
+Preamble
+
+This License applies to the software which with this license is distributed.
+Copyright (c) 2019 Image Processing Research Group of University Federico II of Naples ('GRIP-UNINA').
+This software is delivered with Government Purpose Rights (GPR) under agreement number FA8750-16-2-0204.
+
+
+Transmission of user information
+
+Any and all information or request for information you may direct to GRIP
+through e-mail as may be linked to website http://www.grip.unina.it/ 
