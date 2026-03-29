@@ -26,7 +26,7 @@ outfilename = argv[2]
 timestamp = time()
 img, mode = imread2f(imgfilename, channel=1)
 try:
-    QF = jpeg_qtableinv(strimgfilenameeam)
+    QF = jpeg_qtableinv(str(imgfilename))
 except:
     QF = 200
 res = genNoiseprint(img,QF)
