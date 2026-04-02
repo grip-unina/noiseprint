@@ -1,5 +1,5 @@
 pillow==4.2.1
-numpy==1.16.1
+numpy==1.22.0
 pandas==0.20.3
 scipy==0.19.1
 scikit-image==0.13.0
