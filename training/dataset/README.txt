@@ -1,7 +1,7 @@
 This folder contains the list of images used for the training of Noiseprint in the following paper:
 
 D. Cozzolino, F. Marra, D. Gragnaniello, G. Poggi, and L. Verdoliva
-''Combining PRNU and noiseprint for robust and efficient device sourceidentification''
+''Combining PRNU and noiseprint for robust and efficient device source identification''
 submitted, 2019.
 
 Please cite this paper if you use the dataset.

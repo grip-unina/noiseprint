@@ -11,7 +11,7 @@ IEEE Transactions on Information Forensics and Security, 2020.
 However, the provided dataset is related to the successive paper:
 
 [B] D. Cozzolino, F. Marra, D. Gragnaniello, G. Poggi, and L. Verdoliva
-''Combining PRNU and noiseprint for robust and efficient device sourceidentification''
+''Combining PRNU and noiseprint for robust and efficient device source identification''
 EURASIP Journal on Information Security, 2020.
 
 
@@ -33,7 +33,7 @@ cd dataset
 python download_images.py
 ```
 
-To speed up the training, the dateset is converted in NPY files.
+To speed up the training, the dataset is converted in NPY files.
 To create the NPY files, run:
 
 ```
@@ -56,7 +56,7 @@ To train the noiseprint with the parameters used in [B], run:
 python train_noiseprint.py --gpu 0
 ```
 
-The whole code is tesetd with Python 3.x and Tensorflow 1.2.1 .
+The whole code is tested with Python 3.x and Tensorflow 1.2.1 .
 
 ## Dependencies
 Our code uses Python3.5, Cuda8, Cudnn5.
@@ -72,7 +72,7 @@ The following python packages are required:
 
 ## Reference
 
-```js
+```bibtex
 @article{Cozzolino2020_Noiseprint,
   title={Noiseprint: A CNN-Based Camera Model Fingerprint},
   author={D. Cozzolino and L. Verdoliva},
@@ -84,7 +84,7 @@ The following python packages are required:
 } 
 ```
 
-```js
+```bibtex
 @article{cozzolino2020_Combining,
   title={Combining PRNU and noiseprint for robust and efficient device source identification},
   author={D. Cozzolino and F. Marra and D. Gragnaniello and G. Poggi and L. Verdoliva},
